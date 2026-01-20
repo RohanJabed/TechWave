@@ -336,20 +336,19 @@
     padding: 50px 0;
 }
 
-.img1, .img2 {
+.img1 {
     width: 80%;
     height: auto;
 }
 
 .img2 {
-    top: 120px;
+    top: 230%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .banner-btn {
-    top: 45%;
-    left: 50%;
-    font-size: 14px;
-    padding: 6px 12px;
+    display: none;
 }
 
 .banner-content {
@@ -436,11 +435,11 @@
     margin: 20px;
 }
 
-.host-container img {
+/* .host-container img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-}
+} */
 
 .footer {
     height: auto;
@@ -452,7 +451,8 @@
 }
 
 .footer-social {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 10px;
     align-items: center;
 }
