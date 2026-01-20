@@ -121,14 +121,16 @@
 .about-container {
     margin: 0 auto;
     text-align: center;
-    border-bottom: 1px solid #523c6e; 
+    border-bottom: 1px solid #523c6e;
     padding-bottom: 50px;
 
 }
-.about-pera{
+
+.about-pera {
     padding-top: 30px;
 }
-.rating{
+
+.rating {
     display: flex;
     gap: 50px;
     margin: 0 auto;
@@ -137,9 +139,59 @@
     text-align: center;
     padding-top: 100px;
 }
-.rating-contant{
+
+.rating-contant {
     font-size: 3rem;
     font-weight: 900;
     line-height: 58px;
     color: #00FF88;
+}
+
+.features {
+    padding-top: 120px;
+    background: rgba(35, 14, 61, 1);
+    height: 1121px;
+}
+
+.features-container {
+    display: grid;
+    gap: 10px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    height: 480px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: span 2;
+    border-radius: 40px;
+    padding: 50px;
+    background: #351165;
+
+}
+
+.items2 {
+    grid-column: span 2;
+    padding: 50px;
+    border-radius: 40px;
+    background: #351165;
+}
+
+.items3 {
+    padding: 50px;
+    border-radius: 40px;
+    background: #351165;
+
+}
+.items-h4{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin: 16px 0;
+}
+.features-heading{
+    margin: 0 auto;
+   text-align: center;
+   padding-bottom: 40px;
 }
