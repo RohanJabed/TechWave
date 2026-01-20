@@ -148,12 +148,12 @@
 }
 
 .features {
-    padding-top: 120px;
     background: rgba(35, 14, 61, 1);
     height: 1121px;
 }
 
-.features-container {
+.features-container,
+.episodes-cards {
     display: grid;
     gap: 10px;
     margin: 0 auto;
@@ -185,13 +185,51 @@
     background: #351165;
 
 }
-.items-h4{
+
+.items-h4 {
     color: #FFFFFF;
     font-size: 1.5rem;
     margin: 16px 0;
 }
-.features-heading{
+
+.features-heading {
+    padding-top: 120px;
     margin: 0 auto;
-   text-align: center;
-   padding-bottom: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+
+.episodes {
+    background: #1A0B2E;
+}
+
+.episodes-cards {
+    padding: 50px;
+    border-radius: 40px;
+    justify-items: center;
+    gap: 50px;
+}
+
+.card-items {
+    background: #351165;
+
+}
+
+.card-items iframe {
+    width: 100%;
+    border-radius: 13px;
+    height: 20vh;
+}
+
+.card-items {
+    border-radius: 13px;
+    padding: 8px;
+}
+
+.green-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #00FF88;
 }
