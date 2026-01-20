@@ -18,6 +18,20 @@
     height: 960px;
 
 }
+.banner-btn{
+    background-color: #00FF88;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    border: none;
+    position: absolute;
+    top: 55%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
 
 .total-width {
     max-width: 1200px;
@@ -96,9 +110,7 @@
     margin: 0 auto;
     position: relative;
 }
-.banner-container i{
 
-}
 .banner-content {
     position: absolute;
     top: 500px;
@@ -288,4 +300,166 @@
 }
 .footer-content{
     padding-top: 34px;
+}
+@media screen and (max-width:576px){
+     
+    .nav-bar ul {
+    display: none;
+
+}
+.hamburger {
+    display:flex ;
+    padding-right: 10px;
+}
+.btn{
+    display: none;
+}
+
+.header-container {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+}
+
+.total-width {
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.banner-section {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.banner-container {
+    padding: 50px 0;
+}
+
+.img1, .img2 {
+    width: 80%;
+    height: auto;
+}
+
+.img2 {
+    top: 120px;
+}
+
+.banner-btn {
+    top: 45%;
+    left: 50%;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+.banner-content {
+    position: relative;
+    top: 300px;
+    padding: 0 20px;
+}
+
+.banner-name {
+    font-size: 2rem;
+}
+
+.pera-name {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn, .btnn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.about {
+    padding: 40px 0;
+}
+
+.about-container {
+    padding: 20px;
+}
+
+.rating {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.rating-contant {
+    font-size: 2rem;
+}
+
+.features {
+    height: auto;
+    padding: 40px 0;
+}
+
+.features-heading {
+    font-size: 2rem;
+    padding: 40px 20px 20px;
+}
+
+.features-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.items, .items2, .items3 {
+    grid-column: span 1;
+    grid-row: span 1;
+    padding: 30px 20px;
+}
+
+.episodes {
+    padding: 40px 0;
+}
+
+.episodes-cards {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+
+.card-items iframe {
+    height: 200px;
+}
+
+.host-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px;
+}
+
+.host-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.footer {
+    height: auto;
+    padding: 40px 0;
+}
+
+.footer-container {
+    padding: 0 20px;
+}
+
+.footer-social {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
 }
