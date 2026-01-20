@@ -303,21 +303,18 @@
 }
 @media screen and (max-width:576px){
      
-    .nav-bar ul {
+    .nav-bar .btn {
     display: none;
-
 }
+
 .hamburger {
     display:flex ;
     padding-right: 10px;
 }
-.btn{
-    display: none;
-}
 
 .header-container {
     width: 100%;
-    height: auto;
+    height: 600px;
     padding: 0 20px;
 }
 
@@ -333,16 +330,19 @@
 }
 
 .banner-container {
-    padding: 50px 0;
+    padding: 30px 0;
+    position: relative;
 }
 
 .img1 {
-    width: 80%;
-    height: auto;
+    width: 250px;
+    height: 250px;
 }
 
 .img2 {
-    top: 230%;
+    width: 80px;
+    height: auto;
+    top: 250%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -351,10 +351,15 @@
     display: none;
 }
 
+.nav-bar ul {
+    display: none;
+}
+
 .banner-content {
     position: relative;
-    top: 300px;
+    top: 280px;
     padding: 0 20px;
+    margin-bottom: 50px;
 }
 
 .banner-name {
